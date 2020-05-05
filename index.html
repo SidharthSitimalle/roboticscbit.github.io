@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A layout example that shows off a responsive product landing page.">    <title>R and I Club</title>    
+    <meta name="description" content="">    <title>R and I Club</title>    
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
     
     
@@ -25,16 +25,6 @@
         
 </head>
 <body>
-<!-- 
-  old css
-  header
-  home-menu pure-menu pure-menu-horizontal pure-menu-fixed
-  pure-menu-heading
-  pure-menu-list
-  pure-menu-item
-  pure-menu-link
- -->
-
  <nav class="top-nav" id="top-nav">
   <a href="index.html" class="logo">
     <!-- <img src="" alt="Your Logo Here"> -->
@@ -46,30 +36,32 @@
     <li><a href="#home1">Home</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#Events">Events</a></li>
-    <li><a href="#">Projects</a></li>
-    <li><a href="team.html">Team</a></li>
+    <!-- <li><a href="#">Projects</a></li> -->
+    <!-- <li><a href="team.html">Team</a></li> -->
     <li><a href="#contact1">Contact</a></li>
   </ul>
 </nav>  
 
-<div class="splash-container" id="home1">
+<section class="splash-container" id="home1">
     <!-- <div class="home_wallpapper"> -->
     <!-- <img class="home_wallpapper" src="img\IMG_20200227_113507.jpg" alt=""> -->
     <div class="overlay"></div>
     <h1 class="centered">ROBOTICS AND INNOVATION CLUB CBIT</h1>
+    <button class="btn first centered1">Explore Projects</button>
     
-</div>
+</section>
 
-<div class="content-wrapper">
-    <div class="content" id="about">
+<main class="content-wrapper">
+    <section class="content" id="about">
         <h2 class="content-head is-center" >About</h2>
+        <!-- <hr class="h1-underline"> -->
         <p class="is-center">
             The Robotics and Innovation club of Chaitanya Bharathi Institute of Technology has come into action in the year of 2016. The club focuses in different topics involved in the field of Robotics from it's basics. We as club members conduct various workshops, sessions to inculcate interest among the young brains of CBIT. The members of the club have participated in various inter college events and have won medals from the most reputed IITs and NITs. The club has initiated a national level Robotic fest known as Robovanza, where in students across India have come to participate. Apart from Robotics, the club has been successful in working on various R&D projects and has also began to create interest in multi disciplinary activities.
         </p>
-    </div>
+    </section>
 
 
-    <div class="content" id="Events">
+    <section class="content" id="Events">
         <h2 class="content-head is-center">Events</h2>
 
         <h3 class="content-head is-center">2020</h3>
@@ -84,6 +76,64 @@
                   </div>
             </div>
         </div>
+
+        <div class="row event_row">
+          <div class="col-sm-4 event_card">
+              <div class="card is-center" style="">
+                  <img class="card-img-top" src="https://cdn.discordapp.com/attachments/704366642330599579/707304964845862962/git.png" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">Introduction to Git and GitHub<br>03/05/2020</p>
+                  </div>
+                </div>
+          </div>
+
+          <div class="col-sm-4 event_card">
+            <div class="card is-center" style="">
+                <img class="card-img-top" src="" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Drone Basics, Building the simplest one<br>19/04/2020</p>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-sm-4 event_card">
+          <div class="card is-center" style="">
+              <img class="card-img-top" src="" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">Online Session on Ultrasonic Sensor<br>25/03/2020</p>
+              </div>
+            </div>
+      </div>
+      </div>
+
+      <div class="row event_row">
+        <div class="col-sm-4 event_card">
+            <div class="card is-center" style="">
+                <img class="card-img-top" src="https://cdn.discordapp.com/attachments/704366642330599579/707311195836645477/bluetooth.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Bluetooth controlled bot<br>15/02/2020</p>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-sm-4 event_card">
+          <div class="card is-center" style="">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/704366642330599579/707309478755697110/line_follower.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">Session on Line Follower<br>01/02/2020</p>
+              </div>
+            </div>
+      </div>
+
+      <div class="col-sm-4 event_card">
+        <div class="card is-center" style="">
+            <img class="card-img-top" src="https://cdn.discordapp.com/attachments/704366642330599579/707307776019529808/dpdt.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Introduction to Robotics : DPDT bot<br>27/01/2020</p>
+            </div>
+          </div>
+    </div>
+    </div>
 
         <h3 class="content-head is-center">2019</h3>
 
@@ -136,7 +186,7 @@
         
         
 
-    </div>
+    </section>
 
 
 

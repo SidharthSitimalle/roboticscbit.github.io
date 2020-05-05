@@ -184,7 +184,8 @@ a.pure-button-primary {
 
 /* This is the class used for the main content headers (<h2>) */
 .content-head {
-    font-weight: 400;
+    font-weight: 700;
+    color: #34495ee3;
     /* text-transform: uppercase; */
     /* letter-spacing: 0.1em; */
     /* margin: 2em 0 1em; */
@@ -192,7 +193,7 @@ a.pure-button-primary {
 
 /* This is a modifier class used when the content-head is inside a ribbon */
 .content-head-ribbon {
-    color: white;
+    color: white;   
 }
 
 /* This is the class used for the content sub-headers (<h3>) */
@@ -318,6 +319,7 @@ a.pure-button-primary {
     height: 150px;
     width: 150px;
     border-radius: 500px;
+    box-shadow: 2px 7px 20px #bbb;;
   } 
 
   .team_font{
@@ -402,7 +404,7 @@ width: 100%;
 
 .card{
     height: 450px;
-    width: 350px;
+    width: 352px;
     margin: auto;
 }
 
@@ -421,9 +423,68 @@ width: 100%;
     font-size: 65px;
 }
 
+.centered1 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-size: 65px;
+}
+
+#Events{
+    background-color: #e7e7e7;
+}
+
 .card-body{
     padding: 10px;
 }
+
+.h1-underline{
+    border-top: 4px solid #37608b;
+    width: 55px;
+    margin-top: 10px;
+    margin: auto;
+  }
+
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: -webkit-box;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  .btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+  }
+  
+  .first {
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  .first:hover {
+    box-shadow: 0 0 40px 40px #e74c3c inset;
+  }
+
+
 
   @media(max-width:768px){
     .cbit_map{
